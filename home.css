@@ -62,3 +62,34 @@ li a:hover {
 	font-weight: inherit;
 	font-weight: bold;
 }
+
+.boton-1 {
+    position: relative;
+    padding: 13px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-left: 44%;
+    }
+
+.boton-1 {
+  	background: black;
+    border-radius: 2px;
+  }
+
+.boton-1:hover {
+	background: white;
+	transition: 2s;
+}
+
+.boton-1:hover {
+	color: black;
+	transition: 2s;
+}
+
+
