@@ -6,6 +6,9 @@ body {
 }
 .header {
 	background: black;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 }
 
 .list-header li a {
@@ -41,9 +44,10 @@ body {
 li a:hover {
     color: white;
     text-decoration: underline;
+    transition: 4s;
 }
 
-/* ACÁ EMPIEZA EL HOME */
+/*  HOME */
 
 .img-portada {
 	width: 100%;
@@ -92,4 +96,57 @@ li a:hover {
 	transition: 2s;
 }
 
+/* ACERCA DE MI */ 
 
+.text-1 {
+	color: black;
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+	font-family: 'lato','sans-serif';
+	font-weight: inherit;
+}
+
+.acerca {
+	background-image: url("../web-portafolio/img/hipsta2.jpg");
+	width: 100%;
+	height: 380px;
+}
+
+.bruno-img {
+	width: auto;
+	height: 490px;
+	margin-top: 52px;
+	margin-left: 160px;
+}
+
+.container-acerca {
+	display: flex;
+}
+
+.container-text-acerca {
+	background: black;
+	width: 364px;
+	height: 236px;
+	margin: auto;
+	margin-top: 185px;
+	padding: 10px;
+	margin-left: 85px;
+}
+
+.parraf-text-acerca {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 22%;
+	font-family: 'lato','sans-serif';
+	font-weight: inherit;
+	font-size: 15px;
+}
+
+.yo-text {
+	font-weight: bold;
+	font-size: 23px;
+}
+
+/* NUESTROS SERVICIOS */
