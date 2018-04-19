@@ -48,6 +48,20 @@ li a:hover {
 
 /*  HOME */
 
+.container-arrow {
+	width: 100%;
+	margin: auto;
+}
+
+.arrow {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	margin-left: 48%;
+	margin-top: 10px;
+}
+
 .img-portada {
 	width: 100%;
 	height: 575px;
@@ -204,6 +218,7 @@ li a:hover {
 .cont-gallery {
 	
 	display: flex;
+	padding: 20px;
 }
 
 .gallery-img {
@@ -214,13 +229,15 @@ li a:hover {
 
 }
 
+
 .photo-section2 {
 	width: 100%;
 	height: 165px;
 }
 
-.gallery-2 {
-	
+.photo-section2:hover {
+	    transition: .5s;
+    transform: scale(1.5);
 }
 
 .portafolio {
