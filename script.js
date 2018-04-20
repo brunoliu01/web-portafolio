@@ -1,7 +1,6 @@
 
 
 function valida() {
-	//valido el nombre
 	if (document.formW.nombre.value.length==0) {
 		alert("Recuerde que tiene que escribir su nombre")
 		document.formW.nombre.focus ()
@@ -10,10 +9,17 @@ function valida() {
 		}
 
 	telefono = document.formW.telefono.value
-	document.formW.telefono.value=telefono
 	if (telefono=="") {
 		alert("tiene que introducir el número de su teléfono.")
 		document.formW.telefono.focus()
+		return 0;
+		}
+
+
+	 mensaje= document.formW.mensaje.value
+	if (mensaje=="") {
+		alert("No te olvides de comentarme tu idea")
+		document.formW.mensaje.focus()
 		return 0;
 		}
 
