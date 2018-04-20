@@ -8,13 +8,19 @@ function valida() {
 
 		}
 
+	correo= document.formW.correo.value
+	if (correo=="") {
+		alert("olvidaste colocar tu correo")
+		document.formW.correo.focus()
+		return 0;
+		}
+
 	telefono = document.formW.telefono.value
 	if (telefono=="") {
 		alert("tiene que introducir el número de su teléfono.")
 		document.formW.telefono.focus()
 		return 0;
 		}
-
 
 	 mensaje= document.formW.mensaje.value
 	if (mensaje=="") {
@@ -23,7 +29,7 @@ function valida() {
 		return 0;
 		}
 
-		alert("muchas gracias por enviar el formulario");
+	alert("muchas gracias por enviar el formulario");
 	document.formW.submit();
 	}
 
