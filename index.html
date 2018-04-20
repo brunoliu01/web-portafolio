@@ -87,7 +87,15 @@
 	</section>
 
 	<section class="formulario">
-		
+		<form name="formW" >
+			<h2>CONTACTO</h2>
+			<input type="text" name="nombre" placeholder="Nombre">
+			<input type="text" name="correo" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Correo">
+			<input type="number" name="telefono"  placeholder="Teléfono">
+			<textarea name="mensaje" placeholder="Escribe aquí tu idea"></textarea>
+			<input type="button" value="enviar" id="boton" onclick="valida();" >
+		</form>
 	</section>
+	<script src="script.js"></script>
 </body>
 </html>
